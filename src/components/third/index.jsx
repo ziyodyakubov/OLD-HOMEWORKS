@@ -24,7 +24,7 @@ export default function index() {
    }
   return (
     <>
-      <div className="container">
+      <div className="container mt-5">
         <button onClick={addCount}>Add counter</button>
         <button onClick={deleteCount}>Delete counter</button>
         {

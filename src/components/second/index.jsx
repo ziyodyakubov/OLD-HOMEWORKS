@@ -8,7 +8,7 @@ const Second = () => {
     str === "Login" ? setStr("Logout") && setBtn("LOGOUT") : setStr("Login") && setBtn("LOG IN")
   }
   return (
-    <div>
+    <div className='container mt-5'>
         <h2>{str}</h2>
 
         <button onClick={buttonClick}>{btn}</button>

@@ -15,7 +15,7 @@ const First = () => {
   }
 
   return (
-    <div>
+    <div className='container mt-5'>
         <div>
           <h1>Metr: {qadam}</h1>
           <button onClick={findMetr}>Yurish</button>
